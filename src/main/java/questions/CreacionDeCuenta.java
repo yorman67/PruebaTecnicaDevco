@@ -3,9 +3,9 @@ package questions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.actions.Click;
+import util.enums.EnumGenerico;
 
-import static userinterface.Login.BTN_EMPEZAR;
-import static userinterface.Login.MODAL_BIENVENIDA;
+import static userinterface.Login.*;
 
 public class CreacionDeCuenta implements Question<Boolean> {
 
@@ -13,7 +13,7 @@ public class CreacionDeCuenta implements Question<Boolean> {
     public Boolean answeredBy(Actor actor) {
 
         if(MODAL_BIENVENIDA.resolveFor(actor).isVisible()){
-            actor.attemptsTo(Click.on(BTN_EMPEZAR));
+            actor.attemptsTo(Click.on(BTN_GENERICO_LOGIN.of(EnumGenerico.TEXTO_EMPEZAR_BUSCAR.getValue())));
             return true;
         }else{
             return false;
