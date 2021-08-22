@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import util.enums.EnumGenerico;
 import util.enums.EnumVariablesSistema;
 
-import static userinterface.Login.*;
+import static userinterface.LoginUI.*;
 
 public class Login implements Task {
 

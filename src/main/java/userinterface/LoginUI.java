@@ -4,10 +4,9 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class Login extends PageObject {
+public class LoginUI extends PageObject {
 
-    public static final Target BTN_INICIAR_SESION = Target.the("boton iniciar sesion").locatedBy("//*[@id='b2indexPage']/header/nav[1]/div[2]/div[6]/a");
-    public static final Target BTN_HAZTE_UNA_CUENTA = Target.the("boton hazte una cuenta").locatedBy("//*[@id='b2indexPage']/header/nav[1]/div[2]/div[5]/a");
+
     public static final Target TXT_EMAIL = Target.the("Campo de correo electronico").located(By.id("username"));
     public static final Target BTN_GENERICO_LOGIN = Target.the("boton genericoi para las operaciones del login").locatedBy("//*[@class='bui-button__text' and contains(text(),'{0}')]");
     public static final Target TXT_NUEVA_CLAVE = Target.the("Campo de nueva clave").located(By.id("new_password"));

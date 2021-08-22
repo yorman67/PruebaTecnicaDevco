@@ -9,7 +9,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import util.enums.EnumGenerico;
 import util.enums.EnumVariablesSesion;
 
-import static userinterface.Login.*;
+import static userinterface.LoginUI.*;
 
 public class CrearCuenta implements Task {
 

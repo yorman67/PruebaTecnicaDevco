@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.actions.Click;
 import util.enums.EnumGenerico;
 
-import static userinterface.Login.*;
+import static userinterface.LoginUI.*;
 
 public class CreacionDeCuenta implements Question<Boolean> {
 
