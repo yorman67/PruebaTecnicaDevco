@@ -41,7 +41,7 @@ Como pre-requisitos deberás tener instalados las siguientes herramientas:
       - gradle clean test --tests nombreRunner aggregate
       
    ### Evidencia
-    La evidencia la podras encontrar en la carpeta extras, esta carpeta se encuentra en la raiz del proyecto
+    La evidencia la podras encontrar en la carpeta extras, esta carpeta se encuentra en la raiz del proyecto, dentro de esta carperta tambien podras encontrar el plan de pruebas donde encontraras escenario entre otars cosas.
     
    ### Construido con 
   Este proyecto fue construido con:
