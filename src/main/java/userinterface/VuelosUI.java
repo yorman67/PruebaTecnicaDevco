@@ -17,6 +17,8 @@ public class VuelosUI extends PageObject {
     public static final Target FECHA_REGRESO = Target.the("abrir opcion de fehca de regreso").locatedBy("/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/section[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]");
     public static final Target FECHA_REGRESO2 = Target.the("Seleccionar fecha de regreso").locatedBy("/html[1]/body[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]");
     public static final Target BTN_BUSCAR_VUELOS = Target.the("btn buscar vuelos").locatedBy("//*[@class='Common-Widgets-Button-StyleJamButton theme-light Button-Gradient ui-button size-l searchButton _id7 _ihr _ihs _h-Y _im4 _ii0 _ihp _ihq _inw _iir _iae _jWT _iFQ _iFR _imQ _iv1']");
+    public static final Target SELECT_CLASAE = Target.the("cambiar calse").locatedBy("/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/section[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]");
+    public static final Target SELECT_CLASAE2 = Target.the("cambiar calse").locatedBy("/html[1]/body[1]/div[3]/div[1]/div[2]/ul[1]/li[1]");
     public static final Target LISTA_VUELOS = Target.the("btn buscar vuelos mas barato").located(By.id("searchResultsList"));
 
 

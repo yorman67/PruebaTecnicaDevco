@@ -18,13 +18,14 @@ public class BusquedaVuelosStepDefinition {
         OnStage.theActorInTheSpotlight().attemptsTo(Seleccionar.opcion(EnumMenu.VUELOS.getValue()));
     }
 
-    @Cuando("El usaurio ingresa los datos correspondientes")
-    public void elUsaurioIngresaLosDatosCorrespondientes() {
-        OnStage.theActorInTheSpotlight().attemptsTo(BuscarVuelos.con());
+    @Cuando("El usaurio ingresa el {string} y {string} con fechas {string} {string}")
+    public void elUsaurioIngresaElYConFechas(String lugarSalida, String lugarDestino, String fechaSalida, String fechaDestino) {
+        OnStage.theActorInTheSpotlight().attemptsTo(BuscarVuelos.con(lugarSalida,lugarDestino,fechaSalida,fechaDestino));
     }
 
     @Entonces("el ususario verifica que aparezcan los vuelos con los filtros solicitados")
     public void elUsusarioVerificaQueAparezcanLosVuelosConLosFiltrosSolicitados() {
         OnStage.theActorInTheSpotlight().should(seeThat(Vuelos.encontrados()));
     }
+
 }
