@@ -17,6 +17,7 @@ public class Comunes {
         menus.put("CrearCuenta",BTN_HAZTE_UNA_CUENTA);
         menus.put("IniciarSesion",BTN_INICIAR_SESION);
         menus.put ("Turismo",BTN_TURISMO);
+        menus.put("Vuelos",BTN_VUELOS);
         return menus;
     }
 

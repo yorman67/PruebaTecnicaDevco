@@ -3,7 +3,8 @@ package util.enums;
 public enum EnumMenu {
     INICIARSESION ("IniciarSesion"),
     CREARCUENTA ("CrearCuenta"),
-    TURISMO ("Turismo");
+    TURISMO ("Turismo"),
+    VUELOS ("Vuelos");
 
     private String menu;
 

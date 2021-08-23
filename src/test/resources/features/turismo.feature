@@ -1,6 +1,6 @@
 #language:  es
 
-Característica: Verificar el funcionamiento del mudulo de vuelos
+Característica: Verificar el funcionamiento del mudulo de turismo
   Como usuario
   Quiero buscar atracciones turisticas
   Para escojer para disfrutar de mi estadia
