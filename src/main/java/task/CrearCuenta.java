@@ -22,7 +22,7 @@ public class CrearCuenta implements Task {
                 Enter.theValue(data.crearCorreo()).into(TXT_EMAIL),
                 Click.on(BTN_GENERICO_LOGIN.of(EnumGenerico.TEXTO_CONTINUAR_EMAIL.getValue()))
         );
-        actor.remember("Clave",data.crearClave());
+        actor.remember("clave",data.crearClave());
         actor.attemptsTo(
                 Enter.theValue(actor.recall(EnumVariablesSesion.CLAVE.getValue()).toString()).into(TXT_NUEVA_CLAVE),
                 Enter.theValue(actor.recall(EnumVariablesSesion.CLAVE.getValue()).toString()).into(TXT_CONFIRMACION_CLAVE),

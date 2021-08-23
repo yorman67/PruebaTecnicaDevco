@@ -12,7 +12,4 @@ public class AlquilerUI extends PageObject {
     public static final Target BTN_ELEGIR_COCHE = Target.the("Seleccioanr Coche").locatedBy("//*[@class='bui-button bui-button--primary bui-button--large bui-button--wide bui-u-pull-end']");
     public static final Target BTN_RESERVAR = Target.the("Seleccionar boton de reserva").locatedBy("//*[@class='bui-button bui-button--secondary bui-button--large cdb__button-seperation']");
 
-
-
-
 }
