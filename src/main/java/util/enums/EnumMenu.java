@@ -4,7 +4,8 @@ public enum EnumMenu {
     INICIARSESION ("IniciarSesion"),
     CREARCUENTA ("CrearCuenta"),
     TURISMO ("Turismo"),
-    VUELOS ("Vuelos");
+    VUELOS ("Vuelos"),
+    ALQUILER_COCHES ("alquiler");
 
     private String menu;
 

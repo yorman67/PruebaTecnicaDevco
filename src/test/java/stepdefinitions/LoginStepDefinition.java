@@ -6,7 +6,6 @@ import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.actors.OnStage;
-import questions.CreacionDeCuenta;
 import task.Login;
 import util.Constantes;
 import util.enums.EnumMenu;
